@@ -1,5 +1,4 @@
-NOTE D'INTENTION
-================
+#Battleship-JS
 
 Le code est organisé autour de différents composants (objet) les principaux étant le "jeu" (fichier game.js), et les joueurs (fichier player.js et computer.js), chacun des objets est accessible dans le scope global.
 
@@ -10,3 +9,6 @@ un joueur est représenté par un objet player (fichier player.js), et contient 
 l'objet utils (fichier utils.js), est un objet contenant des méthodes utilitaires et transverses.
 
 l'objet shipFactory (fichier shipFactory.js) est un objet qui simplifie la création des bateaux.
+
+
+Plusieurs améliorations sont possibles comme remplacer les sons actuelles et en ajouter de nouveaux plus moderne et moins strident. on peut aussi améliorer le visuel du jeu le rendre plus attractif.
